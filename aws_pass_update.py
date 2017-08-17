@@ -138,7 +138,7 @@ def gen_pass():
    for i in range(pw_len // divider):
        if rlc:
            pwlist.append(alphabet[random.randrange(len(alphabet))])
-       if rlc:
+       if ruc:
            pwlist.append(upperalphabet[random.randrange(len(upperalphabet))])
        if rqs:
            pwlist.append(special[random.randrange(len(special))])
